@@ -1,10 +1,14 @@
 import "./App.css";
-import PostList from "./components/PostList";
+// import ChildrenPropExample from "./childrenProp/page";
+import EventExample from "./eventExample/page";
+// import PostList from "./components/PostList";
 
 function App() {
   return (
     <>
-      <PostList />
+      {/* <PostList /> */}
+      {/* <ChildrenPropExample /> */}
+      <EventExample />
     </>
   );
 }
