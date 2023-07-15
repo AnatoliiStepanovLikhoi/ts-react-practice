@@ -1,5 +1,6 @@
 import "./App.css";
-import UseContextExample from "./useContextExample/page";
+// import UseContextExample from "./useContextExample/page";
+import UseRefExample from "./useRefExample/page";
 // import UseStateExample from "./useStateExample/page";
 // import ChildrenPropExample from "./childrenProp/page";
 // import EventExample from "./eventExample/page";
@@ -12,7 +13,8 @@ function App() {
       {/* <ChildrenPropExample /> */}
       {/* <EventExample /> */}
       {/* <UseStateExample /> */}
-      <UseContextExample />
+      {/* <UseContextExample /> */}
+      <UseRefExample />
     </>
   );
 }
