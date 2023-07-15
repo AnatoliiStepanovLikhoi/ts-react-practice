@@ -23,10 +23,16 @@ const UseStateExample = () => {
 
   return (
     <div className="useStateExample">
-      <form>
-        <input type="text" placeholder="Username" onChange={handleChange} />
-        <button onClick={handleClick}>Login</button>
-      </form>
+      {user ? (
+        `${user.name} logged in`
+      ) : (
+        <form>
+          <input type="text" placeholder="Username" onChange={handleChange} />
+          <button onClick={handleClick}>Login</button>
+        </form>
+      )}
+      <br />
+      {user?.name}
     </div>
   );
 };
